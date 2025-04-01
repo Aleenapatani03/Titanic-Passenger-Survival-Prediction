@@ -1,5 +1,6 @@
 # Titanic Passenger Survival Prediction
 
+
 This project aims to predict the survival of passengers aboard the Titanic using machine learning classification models. We have implemented several classification algorithms to determine which model performs the best based on accuracy, precision, recall, and F1-score.
 
 ## Introduction
@@ -9,6 +10,7 @@ The Titanic dataset consists of information about passengers aboard the Titanic,
 ## Data Preprocessing
 
 Steps taken in data preprocessing:
+
 1.Loading the Dataset:
 
 We used the Titanic dataset from Kaggle, train.csv, for this project.
@@ -24,6 +26,7 @@ Embarked: We filled missing values in the 'Embarked' column with the most freque
 Label Encoding: We encoded categorical features such as 'Sex' and 'Embarked' using LabelEncoder to convert them into numerical form.
 
 4.Feature Selection:
+
 The following features were selected for prediction:
 
 Pclass: The passenger class (1, 2, 3)
@@ -41,6 +44,7 @@ Fare: The fare the passenger paid
 Embarked: The port where the passenger boarded (C = Cherbourg; Q = Queenstown; S = Southampton)
 
 ## Modeling
+
 Several classification algorithms were implemented to predict the survival of passengers:
 
 1.Logistic Regression
@@ -58,6 +62,7 @@ Several classification algorithms were implemented to predict the survival of pa
 Each model was trained and evaluated to determine the best performing one.
 
 ## Model Evaluation
+
 After training the models, the performance was evaluated using:
 
 Accuracy: The proportion of correct predictions.
